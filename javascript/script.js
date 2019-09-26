@@ -1,7 +1,23 @@
 `use strict`;
 
 const button = document.querySelector(`button`);
-let li;
+const ul = document.querySelector(`ul`);
+let li = document.querySelectorAll(`li`);
+let i = 0;
 
+function GetNextImage() {
+        for (let i = 0; i < li.length; i++) {
+            li[i].classList.remove(`active`);
+        }
+    }
+    // li[i++].classList.add(`active`); 
 
-button.addEventListener( `click`, () => alert(`ok Mélou`));
+function ReturnToFistImage() {
+
+}
+
+function GetNextImageByClick() {
+    GetNextImage();
+}
+
+button.addEventListener( `click`, GetNextImageByClick);
