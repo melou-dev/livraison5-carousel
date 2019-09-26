@@ -10,6 +10,7 @@ id last image, come back to first picture.
 - liste d'image
 
 ## Démarrage.
+
 dans le CSS : 
 
 Par défaut toute les images sont invibles.
