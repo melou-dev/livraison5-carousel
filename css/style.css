@@ -2,12 +2,16 @@ body {
   background-color: aquamarine;
 }
 
-img {
+li {
   display: none;
 }
 
 .active {
   display: block;
+}
+
+img {
+  width: 50%;
 }
 
 /*# sourceMappingURL=style.css.map */

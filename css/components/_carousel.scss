@@ -2,12 +2,14 @@ body {
     background-color: aquamarine;
 }
 
-img {
- display: none;
+li {
+display: none;
 }
 
 .active {
     display: block;
 }
 
-
+img {
+    width: 50vw;
+}

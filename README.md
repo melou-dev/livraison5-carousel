@@ -23,3 +23,8 @@ Création d'une class active pour afficher une image par image.
     display : block
 }
 
+commencer à index 1.
+si dernière photo, retour au début.
+supprimer toute les photos.
+afficher la photo.
+
