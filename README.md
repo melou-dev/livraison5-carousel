@@ -1,30 +1,33 @@
-# livraison5-carousel
+# CAROUSEL - Picture from Maria-Camilla Medina Ceballos - Colombian talent.
 
 ## Pseudo code.
 While user to not click - do nothing
 if user click then, changer to following picture
 if last image, come back to first picture.
 
-## Besoin
-- un bouton
-- liste d'image
+## Needs
+- un button
+- a list of images
 
-## Démarrage.
+## Starting
 
-dans le CSS : 
+into CSS : 
 
-Par défaut toute les images sont invibles.
+by default, all images are :
+```
 img {
     display: none;
 }
+```
 
-Création d'une class active pour afficher une image par image.
+Creation of a class named active to show one pictures one by one.
 .active {
     display : block
 }
 
-commencer à index 1.
-si dernière photo, retour au début.
-supprimer toute les photos.
-afficher la photo.
+## javascript
+
+* Start at index 1.
+* Cancel all pictures.
+* Show active picture.
 
