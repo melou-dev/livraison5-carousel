@@ -1,4 +1,8 @@
-# CAROUSEL - Picture from Maria-Camilla Medina Ceballos - Colombian talent.
+# CAROUSEL
+
+Picture from Maria-Camilla Medina Ceballos - Colombian talent.
+
+![man smiling-black&whitepicture](images/IMG_2069-4.JPEG)
 
 ## Pseudo code.
 While user to not click - do nothing
